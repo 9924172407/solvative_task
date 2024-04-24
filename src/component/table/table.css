@@ -1,0 +1,28 @@
+.table-container {
+  padding-top: 10px;
+  margin: 5px;
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgb(222, 226, 230);
+  text-align: left;
+}
+
+.custom-table th {
+  font-weight: 700;
+  border-bottom: 2px solid;
+}
+
+@media screen and (max-width: 300px) {
+  .custom-table td::before {
+    font-size: 12px;
+  }
+}
